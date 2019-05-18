@@ -1,0 +1,22 @@
+{
+  "name": "rd-simple-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakunaCloud/rd-simple-app.git"
+  },
+  "author": "Tommaso Doninelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HakunaCloud/rd-simple-app/issues"
+  },
+  "homepage": "https://github.com/HakunaCloud/rd-simple-app#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
