@@ -12,7 +12,6 @@ app.get('/hello', (req, res) => {
     return res.send({message: "World!"});
 });
 
-
 app.get('/mset', (req, res) => {
     localVar = req.query.q;
     return res.send({value: req.query.q, action: "set"});
@@ -30,3 +29,7 @@ app.get('/fget', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
+
+process.on('SIGINT', function() {
+    process.exit();
+});
