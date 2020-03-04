@@ -1,5 +1,7 @@
 This is a docker container with simple Express web application that expose few methods 
 
+Base image for [hakunacloud/simple-app](https://hub.docker.com/r/hakunacloud/simple-app)
+
 # Why
 If you need to test an http server, you can use this container
 
@@ -19,5 +21,5 @@ docker volume create test
 
 Start the container
 ```bash
-docker run -d -p 3000:3000 -v pippuz:/pippuz  hakunacloud/rd-simple-app
+docker run -d -p 3000:3000 -v pippuz:/pippuz  hakunacloud/simple-app
 ```
